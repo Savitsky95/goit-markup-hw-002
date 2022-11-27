@@ -1,9 +1,9 @@
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', 'Helvetica', 'Verdana', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -14,26 +14,38 @@ body {
 .text {
     color: #FFFFFF;
     text-align: center;
+    font-weight: 600;
+    font-size: 56px;
 }
 
 .logo {
     color: #4D5AE5;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .secondlogo {
     color: #F4F4FD;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 footer {
-    background-color: #2E2F42
+    background-color: #2E2F42;
+    position: absolute;
+        width: 1940px;
+        height: 310px;
 }
 
 .footer-text {
     color: #E7E9FC;
+    font-family: Roboto;
 }
 
 .second-logo-top {
     color: #2E2F42;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .interactive:focus,
@@ -47,16 +59,78 @@ footer {
     background-color: #FFFFFF;
     color: #4D5AE5;
     cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .nav {
     color: #2E2F42;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .contacts {
     color: #434455;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .link-to:visited {
     color: #2E2F42;
+}
+.first-button {
+    background-color: #FFFFFF;
+    color: #4D5AE5;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+.first-button:focus,
+.first-button:hover,
+.first-button:active {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+.headlines {
+    font-weight: 600;
+    font-size: 20px;
+}
+.information {
+    font-weight: 400;
+    font-size: 16px;
+}
+.wawd {
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+.third-section {
+    background-color: #F4F4FD;
+}
+.second-section{
+
+}
+header {
+    background-color: #FFFFFF;
+}
+.our-team {
+text-align: center;
+font-weight: 600;
+font-size: 36px;
+}
+.names {
+    font-weight: 600;
+    font-size: 20px;
+}
+.speciality {
+    font-size: 16px;
+    line-height: 24px;
+}
+.direction {
+    font-weight: 600;
+    font-size: 20px;
+}
+.description {
+    font-weight: 400;
+    font-size: 16px;
 }
