@@ -1,10 +1,12 @@
-body {
-    font-family: 'Roboto', 'Helvetica', 'Verdana', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+:root {
+    --brand-color: #2E2F42;
+    --background-color: #FFFFFF;
+    --button-color: #4D5AE5;
+}
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--brand-color);
 }
 
 .top-color {
@@ -17,24 +19,14 @@ body {
     font-weight: 600;
     font-size: 56px;
 }
-
-.logo {
-    color: #4D5AE5;
-    font-weight: 800;
-    font-size: 18px;
-}
-
 .secondlogo {
     color: #F4F4FD;
     font-weight: 800;
     font-size: 18px;
 }
 
-footer {
-    background-color: #2E2F42;
-    position: absolute;
-        width: 1940px;
-        height: 310px;
+.footer {
+    background-color: var(--brand-color);
 }
 
 .footer-text {
@@ -43,28 +35,27 @@ footer {
 }
 
 .second-logo-top {
-    color: #2E2F42;
+    color: var(--brand-color);
     font-weight: 800;
     font-size: 18px;
 }
 
 .interactive:focus,
-.interactive:hover,
-.interactive:active {
-    background-color: #4D5AE5;
+.interactive:hover {
+    background-color: var(--button-color);
     color: #FFFFFF;
 }
 
 .interactive {
-    background-color: #FFFFFF;
-    color: #4D5AE5;
+    background-color: var(--background-color);
+    color: var(--button-color);
     cursor: pointer;
     font-weight: 600;
     font-size: 16px;
 }
 
 .nav {
-    color: #2E2F42;
+    color: var(--brand-color);
     font-weight: 600;
     font-size: 16px;
 }
@@ -76,24 +67,31 @@ footer {
 }
 
 .link-to:visited {
-    color: #2E2F42;
+    color: var(--brand-color);
+}
+.link-to-logo {
+    color: var(--button-color);
+        font-weight: 800;
+        font-size: 18px;
 }
 .first-button {
-    background-color: #FFFFFF;
-    color: #4D5AE5;
+    background-color: var(--button-color);
+    color: var(--background-color);
     cursor: pointer;
     font-weight: 600;
     font-size: 16px;
+    font-family: inherit;
 }
 .first-button:focus,
 .first-button:hover,
 .first-button:active {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--button-color);
+    color: var(--background-color);
 }
 .headlines {
     font-weight: 600;
     font-size: 20px;
+    line-height: 1.2;
 }
 .information {
     font-weight: 400;
@@ -103,15 +101,6 @@ footer {
     font-weight: 600;
     font-size: 36px;
     text-align: center;
-}
-.third-section {
-    background-color: #F4F4FD;
-}
-.second-section{
-
-}
-header {
-    background-color: #FFFFFF;
 }
 .our-team {
 text-align: center;
@@ -129,8 +118,15 @@ font-size: 36px;
 .direction {
     font-weight: 600;
     font-size: 20px;
+    line-height: 1.2;
 }
 .description {
     font-weight: 400;
     font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
 }
