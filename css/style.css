@@ -18,6 +18,8 @@
     text-align: center;
     font-weight: 600;
     font-size: 56px;
+    padding: 192px 474px 48px 474px;
+    align-items: center;
 }
 .secondlogo {
     color: #F4F4FD;
@@ -27,11 +29,13 @@
 
 .footer {
     background-color: var(--brand-color);
+    display: block;
 }
 
 .footer-text {
     color: #E7E9FC;
     font-family: Roboto;
+    padding: 16px 1020px 100px 156px;
 }
 
 .second-logo-top {
@@ -47,17 +51,23 @@
 }
 
 .interactive {
-    background-color: var(--background-color);
+    background-color: #F4F4FD;
     color: var(--button-color);
     cursor: pointer;
     font-weight: 600;
     font-size: 16px;
+    border: 1px solid #E7E9FC;
+    padding: 12px 24px;
+    margin-left: 24px;
 }
 
-.nav {
+nav {
     color: var(--brand-color);
     font-weight: 600;
     font-size: 16px;
+    display: flex;
+    margin: 24px 331px 24px 0;
+    align-items: center;
 }
 
 .contacts {
@@ -73,6 +83,7 @@
     color: var(--button-color);
         font-weight: 800;
         font-size: 18px;
+        margin: 24px 77px 24px 156px;
 }
 .first-button {
     background-color: var(--button-color);
@@ -81,6 +92,8 @@
     font-weight: 600;
     font-size: 16px;
     font-family: inherit;
+    margin: 0 635px 192px 635px;
+    padding: 16px 32px;
 }
 .first-button:focus,
 .first-button:hover,
@@ -92,10 +105,13 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
+    margin-bottom: 8px;
+
 }
 .information {
     font-weight: 400;
     font-size: 16px;
+    margin-right: 20px;
 }
 .wawd {
     font-weight: 600;
@@ -106,14 +122,18 @@
 text-align: center;
 font-weight: 600;
 font-size: 36px;
+margin-top: 240px;
+margin-bottom: 72px;
 }
 .names {
     font-weight: 600;
     font-size: 20px;
+    text-align: center;
 }
 .speciality {
     font-size: 16px;
     line-height: 24px;
+    text-align: center;
 }
 .direction {
     font-weight: 600;
@@ -129,4 +149,69 @@ a {
 }
 ul {
     list-style: none;
+}
+.container-header {
+    display:flex;
+    align-items: center;
+    padding: 24px 156px;
+}
+.container-header_item {
+    display: inline;
+    padding-left: 40px;
+}
+.container-header_contacts {
+    display: inline;
+    padding-right: 40px;
+}
+.container-header-boss {
+    
+    
+}
+.headlines-container {
+    display: flex;
+    margin: 120px 156px
+}
+.we-do-images {
+    display: flex;
+    align-items: center;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.we-do {
+    padding-left: 24px;
+}
+.container-team {
+    display: flex;
+    margin-bottom: 120px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.container-name {
+    padding-right: 24px;
+}
+.footer-logo {
+    margin-top: 100px;
+    margin-right: 1240px;
+    margin-left: 156px;
+}
+.button-boss {
+    display: flex;
+    width: 1158px;
+    margin-left: 427px;
+    margin-right: 427px;
+}
+.our-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.section {
+    width: 1158px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.header {
+    box-shadow: 0px 2px 1px;
+}
+.product {
 }
