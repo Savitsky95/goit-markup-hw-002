@@ -8,48 +8,48 @@
     background-color: var(--background-color);
     color: var(--brand-color);
 }
-
 .top-color {
     background-color: #2E2F42;
+    display: flex;
+    padding-top: 192px;
+    padding-bottom: 192px;
 }
-
+.container-top-color {
+}
 .text {
     color: #FFFFFF;
     text-align: center;
     font-weight: 600;
     font-size: 56px;
-    padding: 192px 474px 48px 474px;
-    align-items: center;
+    margin-left: 474px;
+    margin-right: 474px;
+}
+.first-button {
+    background-color: var(--button-color);
+    color: var(--background-color);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: inherit;
+    margin-top: 48px;
+    padding: 16px 32px;
+    margin-left: 635px;
 }
 .secondlogo {
     color: #F4F4FD;
     font-weight: 800;
     font-size: 18px;
 }
-
-.footer {
-    background-color: var(--brand-color);
-    display: block;
-}
-
-.footer-text {
-    color: #E7E9FC;
-    font-family: Roboto;
-    padding: 16px 1020px 100px 156px;
-}
-
 .second-logo-top {
     color: var(--brand-color);
     font-weight: 800;
     font-size: 18px;
 }
-
 .interactive:focus,
 .interactive:hover {
     background-color: var(--button-color);
     color: #FFFFFF;
 }
-
 .interactive {
     background-color: #F4F4FD;
     color: var(--button-color);
@@ -60,75 +60,18 @@
     padding: 12px 24px;
     margin-left: 24px;
 }
-
 nav {
     color: var(--brand-color);
     font-weight: 600;
     font-size: 16px;
     display: flex;
-    margin: 24px 331px 24px 0;
     align-items: center;
-}
-
-.contacts {
-    color: #434455;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.link-to:visited {
-    color: var(--brand-color);
-}
-.link-to-logo {
-    color: var(--button-color);
-        font-weight: 800;
-        font-size: 18px;
-        margin: 24px 77px 24px 156px;
-}
-.first-button {
-    background-color: var(--button-color);
-    color: var(--background-color);
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 16px;
-    font-family: inherit;
-    margin: 0 635px 192px 635px;
-    padding: 16px 32px;
 }
 .first-button:focus,
 .first-button:hover,
 .first-button:active {
     background-color: var(--button-color);
     color: var(--background-color);
-}
-.headlines {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    margin-bottom: 8px;
-
-}
-.information {
-    font-weight: 400;
-    font-size: 16px;
-    margin-right: 20px;
-}
-.wawd {
-    font-weight: 600;
-    font-size: 36px;
-    text-align: center;
-}
-.our-team {
-text-align: center;
-font-weight: 600;
-font-size: 36px;
-margin-top: 240px;
-margin-bottom: 72px;
-}
-.names {
-    font-weight: 600;
-    font-size: 20px;
-    text-align: center;
 }
 .speciality {
     font-size: 16px;
@@ -150,49 +93,101 @@ a {
 ul {
     list-style: none;
 }
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header {
+    box-shadow: 0px 2px 1px;
+}
 .container-header {
     display:flex;
+    margin: 0 auto;
     align-items: center;
-    padding: 24px 156px;
+}
+.contacts {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+}
+.link-to-logo {
+    color: var(--button-color);
+    font-weight: 800;
+    font-size: 18px;
+    margin-right: 77px;
+    margin-left: 156px;
+}
+.link-to:visited {
+    color: var(--brand-color);
 }
 .container-header_item {
     display: inline;
-    padding-left: 40px;
+    margin-left: auto;
+}
+.container-header_item:not(:last-child) {
+margin-right: 40px;
 }
 .container-header_contacts {
     display: inline;
-    padding-right: 40px;
 }
-.container-header-boss {
-    
-    
+.container-header-contacts:last-child {
+    margin-left: 156px;
+}
+.container-header_contacts:not(:last-child) {
+    margin-left: 331px;
+    margin-right: 40px;
 }
 .headlines-container {
     display: flex;
-    margin: 120px 156px
+    padding-top: 120px;
+    padding-bottom: 200px;
 }
-.we-do-images {
-    display: flex;
-    align-items: center;
+.headlines {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.headlines-item:first-child {
     margin-left: 156px;
+}
+.headlines-item {
+    margin-top: 8px;
+    width: 264px;
+}
+
+.headlines-item:last-child {
     margin-right: 156px;
 }
-.we-do {
-    padding-left: 24px;
+
+.headlines-item:not(:last-child) {
+    margin-right: 24px;
+}
+.information {
+    font-weight: 400;
+    font-size: 16px;
 }
 .container-team {
     display: flex;
-    margin-bottom: 120px;
-    margin-left: 156px;
-    margin-right: 156px;
 }
-.container-name {
-    padding-right: 24px;
+.container-name:not(:last-child) {
+    margin-right: 24px;
 }
-.footer-logo {
-    margin-top: 100px;
-    margin-right: 1240px;
+.container-name:first-child {
     margin-left: 156px;
+}
+.container-name:last-child {
+    margn-right: 156px;
+}
+.our-team {
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 639px;
+    margin-right: 639px;
+}
+.names {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
 }
 .button-boss {
     display: flex;
@@ -206,12 +201,47 @@ ul {
     justify-content: space-evenly;
 }
 .section {
-    width: 1158px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.header {
-    box-shadow: 0px 2px 1px;
+.we-do-images {
+    display: flex;
+    align-items: center;
 }
-.product {
+.we-do:not(:last-child) {
+    margin-right: 24px;
+}
+.we-do:first-child {
+    margin-left: 156px;
+}
+.we-do:last-child {
+    margin-right: 156px;
+}
+.wawd {
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 559px;
+    margin-right: 559px;;
+}
+.footer {
+    background-color: var(--brand-color);
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-text {
+    color: #E7E9FC;
+    font-family: Roboto;
+    margin-left: 156px;
+}
+.footer-logo {
+    color: var(--button-color);
+    font-weight: 800;
+    font-size: 18px;
+    margin-right: 77px;
+    margin-left: 156px;
+}
+
+.footer-logo:visited {
+    color: var(--brand-color);
 }
