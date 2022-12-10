@@ -15,19 +15,19 @@
 }
 .top-color {
     background-color: #2E2F42;
-    display: flex;
-    padding-top: 192px;
-    padding-bottom: 192px;
+    display: inline-block;
+    padding: 192px 474px;
 }
 .container-top-color {
+    width: 492px;
+    justify-content: center;
 }
 .text {
     color: #FFFFFF;
     text-align: center;
     font-weight: 600;
     font-size: 56px;
-    margin-left: 474px;
-        margin-right: 474px;
+    padding: 0%;
 }
 .first-button {
     background-color: var(--button-color);
@@ -38,7 +38,8 @@
     font-family: inherit;
     margin-top: 48px;
     padding: 16px 32px;
-    margin-left: 635px;
+    border: 0;
+    margin-left: 161px
 }
 .secondlogo {
     color: #F4F4FD;
