@@ -130,12 +130,10 @@ padding-bottom: 120px;
     padding-top: 32px;
     padding-left: 16px;
 }
-
 .description {
     font-weight: 400;
     font-size: 16px;
 }
-
 .container-header {
     display:flex;
     margin-top: 0;
