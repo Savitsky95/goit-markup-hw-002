@@ -78,9 +78,8 @@ header {
 .header {
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.button-boss {
-    padding-top: 96px;
-    padding-bottom: 72px;
+.button-boss { 
+    margin-bottom: 72px;
 }
 .interactive:focus,
 .interactive:hover {
@@ -100,13 +99,13 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     border-radius: 4px;
 }
 .section-portfolio {
-
 padding-left: 156px;
 padding-bottom: 120px;
 }
 .container-buttons {
     width: 1158px;
     margin-left: 271px;
+    padding-top: 96px;
 }
 .container-products {
     margin: 0;
