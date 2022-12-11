@@ -186,7 +186,7 @@ header {
     color: var(--button-color)
 }
 .link-to {
-
+    color: #2E2F42;
 }
 .link-to-list {
     margin-right: 331px;
@@ -239,6 +239,7 @@ margin-right: 40px;
 }
 .fourth-section {
     background-color: #F4F4FD;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 .container-team {
