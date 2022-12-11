@@ -35,7 +35,7 @@
     background-color: var(--button-color);
     color: var(--background-color);
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     font-family: inherit;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -60,7 +60,7 @@
 }
 nav {
     color: var(--brand-color);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     display: flex;
 }
@@ -96,7 +96,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     background-color: #F4F4FD;
     color: var(--button-color);
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     border: 1px solid #E7E9FC;
     padding: 12px 24px;
@@ -125,7 +125,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     row-gap: 28px;
 }
 .direction {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     margin-bottom: 8px;
@@ -221,7 +221,7 @@ margin-right: 40px;
     display: flex;
 }
 .headlines {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     margin-bottom: 8px;
@@ -256,7 +256,7 @@ margin-right: 40px;
     background-color: var(--background-color);
 }
 .our-team {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     text-align: center;
     margin-bottom: 72px;
@@ -266,7 +266,7 @@ margin-right: 40px;
     padding-bottom: 32px;
 }
 .names {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     text-align: center;
 }
