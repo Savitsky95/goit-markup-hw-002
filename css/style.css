@@ -197,9 +197,6 @@ header {
 .container-header_item:not(:last-child) {
 margin-right: 40px;
 }
-.container-header_item:first-child {
-  
-}
 .container-header_contacts {
     display: inline;
 }
