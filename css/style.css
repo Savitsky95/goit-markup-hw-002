@@ -15,17 +15,19 @@
 }
 .top-color {
     background-color: #2E2F42;
-    display: inline-block;
-    padding: 192px 474px;
+    padding-top: 192px;
+    padding-bottom: 192px;
 }
 .container-top-color {
     width: 492px;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .text {
     color: #FFFFFF;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 56px;
     padding: 0%;
 }
@@ -36,6 +38,8 @@
     font-weight: 600;
     font-size: 16px;
     font-family: inherit;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     margin-top: 48px;
     padding: 16px 32px;
     border: 0;
@@ -57,9 +61,12 @@ nav {
     font-size: 16px;
     display: flex;
 }
-.first-button:focus,
-.first-button:hover,
-.first-button:active {
+.first-button:focus {
+    background-color: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.first-button:hover {
     background-color: var(--button-color);
     color: var(--background-color);
 }
@@ -70,13 +77,11 @@ a {
 ul {
     list-style: none;
 }
-header {
+.header {
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 156px;
-}
-.header {
-box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .button-boss { 
     margin-bottom: 72px;
@@ -182,11 +187,16 @@ margin-right: 40px;
     margin-left: 331px;
     margin-right: 40px;
 }
+.second-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .second-container {
     width: 1158px;
-    padding-top: 120px;
-    padding-bottom: 200px;
-    margin-left: 156px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .headlines-container {
     display: flex;
@@ -208,13 +218,16 @@ margin-right: 40px;
     font-weight: 400;
     font-size: 16px;
 }
-.third-section {
+.fourth-section {
     background-color: #F4F4FD;
     padding-bottom: 120px;
 }
 .container-team {
     width: 1158px;
-    margin-left: 156px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .list-team {
     display: flex;
@@ -246,9 +259,14 @@ margin-right: 40px;
 .button-boss {
     display: flex;
 }
+.section-third {
+padding-bottom: 120px;
+}
 .third-container {
-    padding-left: 156px;
-    padding-bottom: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right:auto;
     width: 1158px;
 }
 .we-do-images {

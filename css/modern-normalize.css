@@ -42,14 +42,14 @@ Sections
 2. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
 
-body {
+/*body {
     margin: 0;
     /* 1 */
-    font-family:
+    /*font-family:
         system-ui,
         -apple-system,
         /* Firefox supports this but not yet `system-ui` */
-        'Segoe UI',
+        /*'Segoe UI',
         Roboto,
         Helvetica,
         Arial,
@@ -304,3 +304,4 @@ Add the correct display in Chrome and Safari.
 summary {
     display: list-item;
 }
+/*https: //cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css
