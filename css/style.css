@@ -47,6 +47,7 @@
 }
 .secondlogo {
     color: #F4F4FD;
+    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
 }
@@ -54,6 +55,8 @@
     color: var(--brand-color);
     font-weight: 800;
     font-size: 18px;
+    font-family: 'Raleway';
+    margin-right: 77px;
 }
 nav {
     color: var(--brand-color);
@@ -79,11 +82,9 @@ ul {
 }
 .header {
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 156px;
 }
 .button-boss { 
+    justify-content: center;
     margin-bottom: 72px;
 }
 .interactive:focus,
@@ -104,17 +105,18 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     border-radius: 4px;
 }
 .section-portfolio {
-padding-left: 156px;
-padding-bottom: 120px;
-}
-.container-buttons {
-    width: 1158px;
-    margin-left: 271px;
     padding-top: 96px;
+    padding-bottom: 120px;
 }
-.container-products {
-    margin: 0;
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     width: 1158px;
+}
+.buttons-container {
+
 }
 .our-products {
     display: flex;
@@ -139,9 +141,21 @@ padding-bottom: 120px;
     font-weight: 400;
     font-size: 16px;
 }
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .container-header {
     display:flex;
-    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 1158px;
 }
 .contacts {
@@ -159,6 +173,7 @@ padding-bottom: 120px;
 .link-to-logo {
     color: var(--button-color);
     font-weight: 800;
+    font-family: 'Raleway';
     font-size: 18px;
 }
 .link-to:visited {
@@ -170,22 +185,26 @@ padding-bottom: 120px;
 .link-to:focus {
     color: var(--button-color)
 }
+.link-to {
+
+}
+.link-to-list {
+    margin-right: 331px;
+}
 .container-header_item {
     display: inline;
-    margin-left: auto;
 }
 .container-header_item:not(:last-child) {
 margin-right: 40px;
 }
 .container-header_item:first-child {
-    margin-left: 77px;
+  
 }
 .container-header_contacts {
     display: inline;
 }
-.container-header_contacts:not(:last-child) {
-    margin-left: 331px;
-    margin-right: 40px;
+.container-header_contacts:first-child {
+margin-right: 40px;
 }
 .second-section {
     padding-top: 120px;
